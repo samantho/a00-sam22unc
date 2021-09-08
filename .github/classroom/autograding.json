@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "You ran npm and it created package.json",
+      "setup": "",
+      "run": "ls",
+      "input": "",
+      "output": "package.json",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "You used npm to install Broswersync",
+      "setup": "",
+      "run": "cat package.json",
+      "input": "",
+      "output": "browser-sync",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "You created index.html",
+      "setup": "",
+      "run": "ls",
+      "input": "",
+      "output": "index.html",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "index.html contains \"Almost done I promise.\"",
+      "setup": "",
+      "run": "cat index.html",
+      "input": "",
+      "output": "Almost done I promise.",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "index.html parses as valid HTML",
+      "setup": "npm i -g html-validate",
+      "run": "html-validate index.html",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 20
+    }
+  ]
+}
