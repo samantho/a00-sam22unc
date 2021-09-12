@@ -1,0 +1,19 @@
+{
+  "name": "a00-sam22unc",
+  "version": "1.0.0",
+  "description": "[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-f059dc9a6f8d3a56e377f745f24479a46679e63a5d9fe6f495e02850cd0d8118.svg)](https://classroom.github.com/online_ide?assignment_repo_id=5559441&assignment_repo_type=AssignmentRepo)\r # a00 This is all a setup\r This assignment for COMP 426 will help you get through setting up tools and installing some of the basic software you will need to have for the course. It is a walkthrough for installing and setting up your development environment, including: Node.js, Visual Studio Code, Chrome, git, and using GitHub Classroom for submissions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdmar3-comp426/a00-sam22unc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jdmar3-comp426/a00-sam22unc/issues"
+  },
+  "homepage": "https://github.com/jdmar3-comp426/a00-sam22unc#readme"
+}
