@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/jdmar3-comp426/a00-sam22unc/issues"
   },
-  "homepage": "https://github.com/jdmar3-comp426/a00-sam22unc#readme"
+  "homepage": "https://github.com/jdmar3-comp426/a00-sam22unc#readme",
+  "dependencies": {
+    "browser-sync": "^2.27.5"
+  }
 }
